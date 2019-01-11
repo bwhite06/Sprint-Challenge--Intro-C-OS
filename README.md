@@ -13,7 +13,7 @@ type `make` in the `examples/` directory.) It should print `Testing: PASS`.
 
 Name at least three things that an operating system is responsible for handling?
 processes contolled by operating system
--Memory Allocation
+-Memory Allocation.
 -Process Management.
 -Scheduling.
 ## Challenge 2

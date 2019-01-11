@@ -23,13 +23,15 @@ if(argc>=2)
   // Open directory
    struct dirent *dp;
    char * file_name;
+   int file_serial;
    dirname = opendir(dirname_location);
 
  
   // Repeatly read and print entries
    while((dp = readdir(dirname))!=NULL){
    file_name = dp -> d_name;
-   printf("file_name: \"%s\"\n",file_name);
+   file_serial = dp -> d_ino;
+   printf("file_name: ""%s  " "%d\n "  "", file_name, file_serial);
     }
 
 
